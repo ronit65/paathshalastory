@@ -1,0 +1,2 @@
+RewriteEngine on
+RewriteRule ^login/ login/index.php?url=$1 [NC,L,QSA]
